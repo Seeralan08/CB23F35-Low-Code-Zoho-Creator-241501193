@@ -1,10 +1,10 @@
 # CampusFix Experiments
 
-**Seeralan M — Registration number 241501193**
+**Seeralan M — Register number 2116241501193**
 
-All 15 records now use CampusFix screenshots captured without a mouse pointer. Text and captions have been adapted to the CampusFix project. Each record distinguishes verified implementation or inspection from proposed exercises; integrations, role enforcement, AI-assisted runs, performance benchmarks and staged deployment have not been demonstrated. The original Loan Application Lab screenshots have been removed.
+All 15 records use screenshots from Seeralan's CampusFix application. Each record distinguishes verified implementation or inspection from proposed exercises; integrations, role enforcement, AI-assisted runs, performance benchmarks and staged deployment have not been demonstrated.
 
-Topics and report structure follow [the reference repository](https://github.com/san342147/CB23F35-Low-Code-Zoho-Creator). See [PROJECT_REPORT.md](PROJECT_REPORT.md) for the reviewed project scope.
+See [the complete project report](PROJECT_REPORT.md) for the actual CampusFix scope and the prescribed report format.
 
 | No | Record | Evidence status |
 | --- | --- | --- |
@@ -13,7 +13,7 @@ Topics and report structure follow [the reference repository](https://github.com
 | 03 | [Survey of Low Code Development Practices](241501193-Exp-03.docx) | Design study |
 | 04 | [Business Data Modelling and Form Design](241501193-Exp-04.docx) | Form configuration inspected |
 | 05 | [Reports and the CampusFix Dashboard](241501193-Exp-05.docx) | Reports and dashboard verified |
-| 06 | [Deluge Workflows Testing and Debugging](241501193-Exp-06.docx) | Workflow inspected and test plan prepared |
+| 06 | [Deluge Workflows Testing and Debugging](241501193-Exp-06.docx) | Saved workflow and initial-build rejection tests verified |
 | 07 | [Integration Design for CampusFix](241501193-Exp-07.docx) | Proposed integration not executed |
 | 08 | [User Permissions and Role Based Access Control](241501193-Exp-08.docx) | Access-control design and test plan |
 | 09 | [AI Assistance and Dashboard Verification](241501193-Exp-09.docx) | Analytical check completed and AI exercise proposed |
