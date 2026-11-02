@@ -1,23 +1,25 @@
-# Zoho Creator Experiments
+# CampusFix Experiments
 
-Registration number **241501193** — **Seeralan M**
+**Seeralan M — Registration number 241501193**
 
-These 15 records are adapted reference copies from [san342147/CB23F35-Low-Code-Zoho-Creator](https://github.com/san342147/CB23F35-Low-Code-Zoho-Creator). The filenames, student header, registration number, and document author metadata have been updated. The original experiment text and screenshots describe the reference Loan Application Lab; they are not evidence that these experiments were executed in CampusFix or by the receiving student. See [PROJECT_REPORT.md](PROJECT_REPORT.md) for the independently reviewed CampusFix implementation.
+All 15 records now use CampusFix screenshots captured without a mouse pointer. Text and captions have been adapted to the CampusFix project. Each record distinguishes verified implementation or inspection from proposed exercises; integrations, role enforcement, AI-assisted runs, performance benchmarks and staged deployment have not been demonstrated. The original Loan Application Lab screenshots have been removed.
 
-| Experiment | Record |
-| --- | --- |
-| 01 | [Experiment 1 Low Code and Traditional Application Development](241501193-Exp-01.docx) |
-| 02 | [Experiment 2 Zoho Creator Setup and Platform Architecture](241501193-Exp-02.docx) |
-| 03 | [Experiment 3 Survey of Emerging Trends in Low Code Development](241501193-Exp-03.docx) |
-| 04 | [Experiment 4 Business Data Modelling and Advanced Form Design](241501193-Exp-04.docx) |
-| 05 | [Experiment 5 Reports and a Custom Loan Dashboard](241501193-Exp-05.docx) |
-| 06 | [Experiment 6 Deluge Workflows Testing and Debugging](241501193-Exp-06.docx) |
-| 07 | [Experiment 7 Zoho Sheet Integration Through an OAuth Connection](241501193-Exp-07.docx) |
-| 08 | [Experiment 8 User Permissions and Role Based Access Control](241501193-Exp-08.docx) |
-| 09 | [Experiment 9 Zia Assistance and Built In Analytics](241501193-Exp-09.docx) |
-| 10 | [Experiment 10 Subform Limits and Query Optimization](241501193-Exp-10.docx) |
-| 11 | [Experiment 11 Application Environments and Deployment](241501193-Exp-11.docx) |
-| 12 | [Experiment 12 Security Privacy and Application Governance](241501193-Exp-12.docx) |
-| 13 | [Experiment 13 Enterprise Limitations Case Study](241501193-Exp-13.docx) |
-| 14 | [Experiment 14 Pro Code Extension Using a Custom Function](241501193-Exp-14.docx) |
-| 15 | [Experiment 15 Career Pathways and the Future of Low Code](241501193-Exp-15.docx) |
+Topics and report structure follow [the reference repository](https://github.com/san342147/CB23F35-Low-Code-Zoho-Creator). See [PROJECT_REPORT.md](PROJECT_REPORT.md) for the reviewed project scope.
+
+| No | Record | Evidence status |
+| --- | --- | --- |
+| 01 | [Low Code and Traditional Application Development](241501193-Exp-01.docx) | Case study based on the implemented app |
+| 02 | [Zoho Creator Setup and Platform Architecture](241501193-Exp-02.docx) | Existing application inspected |
+| 03 | [Survey of Low Code Development Practices](241501193-Exp-03.docx) | Design study |
+| 04 | [Business Data Modelling and Form Design](241501193-Exp-04.docx) | Form configuration inspected |
+| 05 | [Reports and the CampusFix Dashboard](241501193-Exp-05.docx) | Reports and dashboard verified |
+| 06 | [Deluge Workflows Testing and Debugging](241501193-Exp-06.docx) | Workflow inspected and test plan prepared |
+| 07 | [Integration Design for CampusFix](241501193-Exp-07.docx) | Proposed integration not executed |
+| 08 | [User Permissions and Role Based Access Control](241501193-Exp-08.docx) | Access-control design and test plan |
+| 09 | [AI Assistance and Dashboard Verification](241501193-Exp-09.docx) | Analytical check completed and AI exercise proposed |
+| 10 | [Query Design and Performance Evaluation](241501193-Exp-10.docx) | Performance study not benchmarked |
+| 11 | [Application Environments and Deployment](241501193-Exp-11.docx) | Deployment plan not executed |
+| 12 | [Security Privacy and Application Governance](241501193-Exp-12.docx) | Field privacy setting inspected |
+| 13 | [Enterprise Limitations Case Study](241501193-Exp-13.docx) | Case study |
+| 14 | [Pro Code Extension Using Deluge](241501193-Exp-14.docx) | Existing workflow inspected and extension proposed |
+| 15 | [Career Pathways and the Future of Low Code](241501193-Exp-15.docx) | Presentation and learning plan |
