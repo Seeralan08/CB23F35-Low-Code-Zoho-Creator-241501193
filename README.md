@@ -24,4 +24,8 @@ These are Zoho Creator component definitions captured from the Application IDE, 
 
 ## Reference
 
-Report organization follows the academic record style in [san342147/CB23F35-Low-Code-Zoho-Creator](https://github.com/san342147/CB23F35-Low-Code-Zoho-Creator). Findings and source files describe CampusFix; this repository does not reproduce the reference lab records.
+Report organization follows the academic record style in [san342147/CB23F35-Low-Code-Zoho-Creator](https://github.com/san342147/CB23F35-Low-Code-Zoho-Creator). The project report and Creator component definitions describe CampusFix. The separately indexed experiment documents are adapted reference copies of the Loan Application Lab records.
+
+## Experiment records
+
+[Experiments 01–15 for registration number 241501193](EXPERIMENTS.md) are included as adapted reference records. The experiment index identifies their source and distinguishes the reference Loan Application Lab evidence from the CampusFix project.
