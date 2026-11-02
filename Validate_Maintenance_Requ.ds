@@ -1,0 +1,44 @@
+Validate_Maintenance_Requ as "Validate Maintenance Requests"
+{
+	type =  form
+	form = Maintenance_Requests
+
+	record event = on add or edit
+
+	on validate
+	{
+		actions 
+		{
+			custom deluge script
+			(
+					if(input.Target_Date < input.Reported_Date)
+				{
+					alert "Target date must be on or after the reported date.";
+					cancel submit;
+				}
+				if(input.Reported_Date > zoho.currentdate)
+				{
+					alert "Reported date cannot be in the future.";
+					cancel submit;
+				}
+				if(ifnull(input.Issue_Description,"").trim().length() < 10)
+				{
+					alert "Please describe the issue using at least 10 characters.";
+					cancel submit;
+				}
+				if(input.Status != "Reported" && ifnull(input.Assigned_Team,"").trim() == "")
+				{
+					alert "Assign a repair team before progressing this request.";
+					cancel submit;
+				}
+				if(input.Status == "Resolved" && ifnull(input.Resolution_Notes,"").trim() == "")
+				{
+					alert "Resolution notes are required before closing a request.";
+					cancel submit;
+				}
+			)
+		}
+	}
+
+}
+

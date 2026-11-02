@@ -1,0 +1,8 @@
+<zml>
+  <layout>
+    <row>
+      <column width='100%'>
+        <dsp elementName='HTML Snippet' id='html_snippet' bgColor='#FFFFFF' /> </column>
+    </row>
+  </layout>
+</zml>

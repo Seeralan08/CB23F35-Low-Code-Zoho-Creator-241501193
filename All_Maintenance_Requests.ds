@@ -1,0 +1,100 @@
+list All_Maintenance_Requests
+{
+	displayName = "All Maintenance Requests"
+	show all rows from Maintenance_Requests    
+	(
+		Ticket_Reference as "Ticket Reference"
+		Reporter_Name as "Reporter Name"
+		Contact_Email as "Contact Email"
+		Location
+		Issue_Description as "Issue Description"
+		Category
+		Priority
+		Status
+		Reported_Date as "Reported Date"
+		Target_Date as "Target Date"
+		Assigned_Team as "Assigned Team"
+		Resolution_Notes as "Resolution Notes"
+	)
+	quickview
+	(
+		layout
+		(
+			datablock1
+			(
+				fields
+				(
+					Ticket_Reference as "Ticket Reference"
+					Reporter_Name as "Reporter Name"
+					Contact_Email as "Contact Email"
+					Location
+					Issue_Description as "Issue Description"
+					Category
+					Priority
+				)
+			)
+		)
+			menu
+			(
+				header
+				(
+					Edit 
+					Duplicate 
+					Delete 
+				)
+			record
+			(
+				Edit   	   
+				Duplicate   	   
+				Delete   	   
+    		)
+			)
+    	action
+    	(
+			on click
+			(
+				View Record   	   
+    		)
+			on right click
+			(
+				Edit   	   
+				Delete   	   
+				Duplicate   	   
+				View Record   	   
+    		)
+     	)
+	)
+	detailview
+	(
+		layout
+		(
+			datablock1
+			(
+				fields
+				(
+					Ticket_Reference as "Ticket Reference"
+					Reporter_Name as "Reporter Name"
+					Contact_Email as "Contact Email"
+					Location
+					Issue_Description as "Issue Description"
+					Category
+					Priority
+					Status
+					Reported_Date as "Reported Date"
+					Target_Date as "Target Date"
+					Assigned_Team as "Assigned Team"
+					Resolution_Notes as "Resolution Notes"
+				)
+			)
+		)
+			menu
+			(
+				header
+				(
+					Edit 
+					Duplicate 
+					Delete 
+				)
+			)
+	)
+}

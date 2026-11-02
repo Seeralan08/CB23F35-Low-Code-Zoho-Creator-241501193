@@ -1,0 +1,142 @@
+form Maintenance_Requests
+{
+	displayname = "Maintenance Requests"
+	success message = "Maintenance Request Added Successfully"
+	Section
+	(
+		type = section
+	 	row = 1
+	 	column = 0   
+		width = medium
+	)
+	must have unique Ticket_Reference
+	(
+    	type = text
+		displayname = "Ticket Reference"
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Reporter_Name
+	(
+    	type = text
+		displayname = "Reporter Name"
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Contact_Email
+	(
+    	type = email
+		displayname = "Contact Email"
+		maxchar = 80
+	 	row = 1
+	 	column = 1   
+		width = medium
+		personal data = true
+	)
+	must have Location
+	(
+    	type = text
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Category
+	(
+		type = picklist
+		maxchar = 100
+		values = {"Electrical","Plumbing","Network","Furniture","Cleaning"}
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Priority
+	(
+		type = picklist
+		maxchar = 100
+		values = {"Low","Medium","High"}
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Status
+	(
+		type = picklist
+		maxchar = 100
+		values = {"Reported","Assigned","In Progress","Resolved"}
+		initial value = "Reported"
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Target_Date
+	(
+    	type = date
+		displayname = "Target Date"
+		alloweddays = 0,1,2,3,4,5,6
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Reported_Date
+	(
+    	type = date
+		displayname = "Reported Date"
+		alloweddays = 0,1,2,3,4,5,6
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	Assigned_Team
+	(
+    	type = text
+		displayname = "Assigned Team"
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	Resolution_Notes
+	(
+    	type = textarea
+		displayname = "Resolution Notes"
+		height = 100px
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	must have Issue_Description
+	(
+    	type = textarea
+		displayname = "Issue Description"
+		height = 100px
+	 	row = 1
+	 	column = 1   
+		width = medium
+	)
+	
+	actions
+	{
+		on add
+		{
+			submit
+			(
+   				type = submit
+   				displayname = "Submit"
+			)
+		}
+		on edit
+		{
+			update
+			(
+   				type = submit
+   				displayname = "Update"
+			)
+			cancel
+			(
+   				type = cancel
+   				displayname = "Cancel"
+			)
+		}
+	}
+}

@@ -1,0 +1,100 @@
+kanban Repair_Status_Board
+{
+	displayName = "Repair Status Board"
+	show all rows from Maintenance_Requests    
+	(
+		Ticket_Reference as "Ticket Reference"
+		Reporter_Name as "Reporter Name"
+		Contact_Email as "Contact Email"
+		Location
+		Category
+		Priority
+		Status
+		Target_Date as "Target Date"
+		Reported_Date as "Reported Date"
+		Assigned_Team as "Assigned Team"
+		Resolution_Notes as "Resolution Notes"
+		Issue_Description as "Issue Description"
+	)
+	options
+	(
+	 	display field = Status
+	 )
+	quickview
+	(
+		layout
+		(
+			displaylayout = "classic"
+			datablock1
+			(
+				fields
+				(
+					Ticket_Reference as "Ticket Reference"
+					Reporter_Name as "Reporter Name"
+				)
+			)
+		)
+			menu
+			(
+				header
+				(
+					Edit 
+					Duplicate 
+					Delete 
+				)
+			record
+			(
+				Edit   	   
+				Duplicate   	   
+				Delete   	   
+    		)
+			)
+    	action
+    	(
+			on click
+			(
+				View Record   	   
+    		)
+			on right click
+			(
+				Edit   	   
+				Delete   	   
+				Duplicate   	   
+				View Record   	   
+    		)
+     	)
+	)
+	detailview
+	(
+		layout
+		(
+			datablock1
+			(
+				fields
+				(
+					Ticket_Reference as "Ticket Reference"
+					Reporter_Name as "Reporter Name"
+					Contact_Email as "Contact Email"
+					Location
+					Category
+					Priority
+					Status
+					Target_Date as "Target Date"
+					Reported_Date as "Reported Date"
+					Assigned_Team as "Assigned Team"
+					Resolution_Notes as "Resolution Notes"
+					Issue_Description as "Issue Description"
+				)
+			)
+		)
+			menu
+			(
+				header
+				(
+					Edit 
+					Duplicate 
+					Delete 
+				)
+			)
+	)
+}
